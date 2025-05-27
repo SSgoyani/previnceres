@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 const PrivacyPolicy = () => {
   useEffect(() => {
@@ -14,7 +15,7 @@ const PrivacyPolicy = () => {
       
       <main className="flex-grow">
         <motion.section 
-          className="bg-gradient-to-r from-shopify-100 to-shopify-50 py-16 md:py-24 h-[40vh] flex items-center overflow-hidden relative"
+          className="bg-gradient-to-r from-shopify-100 to-shopify-50 py-16 md:py-24 h-[50vh] flex items-center overflow-hidden relative"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8 }}
@@ -100,16 +101,19 @@ const PrivacyPolicy = () => {
                 <li>Where we need to comply with a legal obligation.</li>
               </ul>
               
+              <br/>
               <h2 className="text-2xl md:text-3xl">Data Security</h2>
               <p>
                 We have put in place appropriate security measures to prevent your personal data from being accidentally lost, used or accessed in an unauthorized way, altered or disclosed. In addition, we limit access to your personal data to those employees, agents, contractors and other third parties who have a business need to know.
               </p>
               
+              <br/>
               <h2 className="text-2xl md:text-3xl">Data Retention</h2>
               <p>
                 We will only retain your personal data for as long as reasonably necessary to fulfil the purposes we collected it for, including for the purposes of satisfying any legal, regulatory, tax, accounting or reporting requirements.
               </p>
               
+              <br/>
               <h2 className="text-2xl md:text-3xl">Your Legal Rights</h2>
               <p>
                 Under certain circumstances, you have rights under data protection laws in relation to your personal data, including the right to:
@@ -124,18 +128,21 @@ const PrivacyPolicy = () => {
                 <li>Right to withdraw consent.</li>
               </ul>
               
+              <br/>
               <h2 className="text-2xl md:text-3xl">Changes to This Privacy Policy</h2>
               <p>
                 We may update our privacy policy from time to time. We will notify you of any changes by posting the new privacy policy on this page and updating the "last updated" date at the top of this privacy policy.
               </p>
               
+              <br/>
               <h2 className="text-2xl md:text-3xl">Contact Us</h2>
               <p>
                 If you have any questions about this privacy policy or our privacy practices, please contact us at:
               </p>
+              <br/>
               <p className="mb-6 bg-gray-50 p-4 rounded-lg border-l-4 border-shopify-500">
                 Email: <span className="font-semibold">services@previnceres.com</span><br />
-                Or visit our <a href="/contact" className="text-shopify-500 hover:text-shopify-600 underline">contact page</a>.
+                Or visit our <Link to="/contact" className="text-shopify-500 hover:text-shopify-600 underline">contact page</Link>.
               </p>
             </div>
           </div>

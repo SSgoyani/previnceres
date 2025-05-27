@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 const TermsOfService = () => {
   useEffect(() => {
@@ -105,6 +106,7 @@ const TermsOfService = () => {
                 <li>Open-source components which are subject to their respective licenses.</li>
               </ul>
               
+              <br/>
               <h2 className="text-2xl md:text-3xl">5. Payment Terms</h2>
               <p>
                 Payment terms will be specified in your service agreement. In general:
@@ -115,6 +117,7 @@ const TermsOfService = () => {
                 <li>Final payment is due before the final deliverables are transferred or deployed.</li>
               </ul>
               
+              <br/>
               <h2 className="text-2xl md:text-3xl">6. Limitation of Liability</h2>
               <p>
                 To the maximum extent permitted by law, we shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly, or any loss of data, use, goodwill, or other intangible losses, resulting from:
@@ -126,23 +129,27 @@ const TermsOfService = () => {
                 <li>Any bugs, viruses, trojan horses, or the like that may be transmitted to or through our services.</li>
               </ul>
               
+              <br/>
               <h2 className="text-2xl md:text-3xl">7. Changes to Terms</h2>
               <p>
                 We reserve the right to modify these Terms at any time. We will provide notice of any material changes by posting the new Terms on the Website. Your continued use of the Website or our services after such modifications will constitute your acknowledgment of the modified Terms.
               </p>
               
+              <br/>
               <h2 className="text-2xl md:text-3xl">8. Governing Law</h2>
               <p>
                 These Terms shall be governed by and construed in accordance with the laws of India, without regard to its conflict of law principles.
               </p>
               
+              <br/>
               <h2 className="text-2xl md:text-3xl">9. Contact Us</h2>
               <p className="mb-2">
                 If you have any questions about these Terms, please contact us at:
               </p>
+              <br/>
               <p className="mb-6 bg-gray-50 p-4 rounded-lg border-l-4 border-shopify-500">
                 Email: <span className="font-semibold">services@previnceres.com</span><br />
-                Or visit our <a href="/contact" className="text-shopify-500 hover:text-shopify-600 underline">contact page</a>.
+                Or visit our <Link to="/contact" className="text-shopify-500 hover:text-shopify-600 underline">contact page</Link>.
               </p>
             </div>
           </div>
