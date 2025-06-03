@@ -85,9 +85,12 @@ const Footer = () => {
               <span className="absolute bottom-0 left-0 w-1/2 h-1 bg-shopify-200"></span>
             </h4>
             <ul className="space-y-4">
-              <li className="flex items-start">
+              <li className="flex items-center">
                 <MapPin size={20} className="mt-0.5 mr-2 text-shopify-500" />
-                <span className="text-gray-600">Bengaluru, Karnataka IN<br /></span>
+                <span>
+                  <span className="text-gray-600">Regina, SK, CA<br /></span>
+                  <span className="text-gray-600">Bengaluru, KA, IN<br /></span>
+                </span>
               </li>
               <li className="flex items-center">
                 <Mail size={20} className="mr-2 text-shopify-500" />
