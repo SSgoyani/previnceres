@@ -89,7 +89,6 @@ const Footer = () => {
                 <MapPin size={20} className="mt-0.5 mr-2 text-shopify-500" />
                 <span>
                   <span className="text-gray-600">Regina, SK, CA<br /></span>
-                  <span className="text-gray-600">Bengaluru, KA, IN<br /></span>
                 </span>
               </li>
               <li className="flex items-center">
